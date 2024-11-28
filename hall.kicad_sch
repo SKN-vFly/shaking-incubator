@@ -1,0 +1,713 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1717503b-38dd-4056-a32e-653a327daea5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Sensor_Magnetic:A1101ELHL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "A1101ELHL"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C, SOT-23W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hall switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "A1101ELHL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "A1101ELHL_1_1"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 129.54 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52398ef1-50bd-4052-8941-84bc7ab360bc")
+	)
+	(junction
+		(at 129.54 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ee2d3f-f5a2-42d5-ac64-d7ccffdae355")
+	)
+	(junction
+		(at 133.35 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ed2b17d-3acd-4476-9f7b-3a899b26376a")
+	)
+	(junction
+		(at 163.83 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f93a7f-9eae-4245-9a43-07103c855355")
+	)
+	(junction
+		(at 133.35 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cea7aa-4a0a-47c3-adf0-2a9cc1e2de03")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0a49cf89-a916-4623-903a-b450e8c334a8")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0af3fa28-e192-4941-bb8b-d073668145e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105f76eb-502f-4f7b-bfd7-7e2a17c86982")
+	)
+	(wire
+		(pts
+			(xy 163.83 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1381fc8c-a78a-4b4b-a19b-ae94b89807f5")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e3e1ea-7217-4649-afdf-297ce482e38c")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1847b8d4-f5b3-4cb9-ba5a-103ca901cdb7")
+	)
+	(wire
+		(pts
+			(xy 163.83 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230c1e7f-46d6-4b71-8bd1-530d0c4ff055")
+	)
+	(wire
+		(pts
+			(xy 163.83 29.21) (xy 129.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1382e8-5c38-4411-a5d4-8b3600308e41")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7deca9-58d1-426b-bfb1-94a529282e0b")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3da26cd9-8680-49f9-912d-07692d71e12b")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5060268b-cb81-43eb-924f-85a831100653")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cb2214-b778-4ebc-8dbf-75494830d402")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "82096e47-ffef-4329-9d91-bd3b7acc2a90")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 22 1)
+		)
+		(uuid "887c008b-bbe6-49b5-b273-246457a9f308")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d00bf59-6267-42a3-9c80-2b18021bdd4a")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f215b42-5943-4fa5-bb16-9eef67d92b8d")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9226c9dc-c7b3-4667-8bdb-998abcc45770")
+	)
+	(wire
+		(pts
+			(xy 133.35 80.01) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70c4297-dd83-4db9-98bb-a62643b8fa47")
+	)
+	(wire
+		(pts
+			(xy 129.54 29.21) (xy 129.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c752e253-6cbd-490a-9bf6-87a4f01758db")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f96ff147-befe-4c4d-9480-024160ee4f8a")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aa3fa3-c163-4413-aaeb-86e6ed63b1ff")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0d5b20-4029-47d9-8c63-b77c076bd8b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd84cac1-36e9-4619-a6d5-94de9907fa50")
+	)
+	(label "random sensors!!"
+		(at 163.83 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daf63898-ad01-44e8-971f-89eedd6b10d9")
+	)
+	(hierarchical_label "s3"
+		(shape output)
+		(at 124.46 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f688537-474a-4e18-a470-a9f1adc23fea")
+	)
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 125.73 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "649b9881-02da-4aa6-ba6a-e17f3f3e3ee3")
+	)
+	(hierarchical_label "s2"
+		(shape output)
+		(at 124.46 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72ec1afc-5417-43b5-b347-948bcb651523")
+	)
+	(hierarchical_label "s1"
+		(shape output)
+		(at 124.46 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b653a8f-4ab6-438f-9b68-6de52bd1d478")
+	)
+	(hierarchical_label "vcc"
+		(shape input)
+		(at 125.73 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c9ac73f-eee4-4a8d-9c88-043eeff9fafd")
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:A1101ELHL")
+		(at 161.29 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ef11601-a1d4-4efc-bc2a-71eb5c5fee6f")
+		(property "Reference" "U4"
+			(at 167.64 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A1101ELHL"
+			(at 167.64 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C, SOT-23W"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5123b33d-6865-45e9-bf9a-2e8b8dc01fb6")
+		)
+		(pin "2"
+			(uuid "1b539db5-058d-4efc-8d1e-f463f7f8cea8")
+		)
+		(pin "3"
+			(uuid "198bb2d5-dc36-4dbd-9e0c-6f4b9eb66e95")
+		)
+		(instances
+			(project "wytrzasarka"
+				(path "/fb8da07c-0c75-4bb9-88f5-d1eb037b3a33/e12091c3-582d-49d8-ba72-b1c1b3f76e2a"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:A1101ELHL")
+		(at 161.29 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dbf4115-47a9-44aa-8856-1ff03d7f1ed7")
+		(property "Reference" "U3"
+			(at 167.64 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A1101ELHL"
+			(at 167.64 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C, SOT-23W"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8148f8-3c97-4933-bd3c-e042ba8e9e25")
+		)
+		(pin "2"
+			(uuid "6fbbf231-ccf9-4d0d-823d-1f65ee79dcbc")
+		)
+		(pin "3"
+			(uuid "1f6f9dc4-74f0-4ddf-b69a-a6bba524ad41")
+		)
+		(instances
+			(project "wytrzasarka"
+				(path "/fb8da07c-0c75-4bb9-88f5-d1eb037b3a33/e12091c3-582d-49d8-ba72-b1c1b3f76e2a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:A1101ELHL")
+		(at 161.29 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe237fe-7c9c-47a2-b0f3-e72cada6b7f3")
+		(property "Reference" "U2"
+			(at 167.64 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A1101ELHL"
+			(at 167.64 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+			(at 161.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C, SOT-23W"
+			(at 161.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e9cf21-a529-46b8-b4cb-7aa4f157a1b5")
+		)
+		(pin "2"
+			(uuid "937ad4d1-330d-4a08-a340-c748ed80939c")
+		)
+		(pin "3"
+			(uuid "3fa70c88-cb90-41d0-8d09-c95bf75e7fb0")
+		)
+		(instances
+			(project ""
+				(path "/fb8da07c-0c75-4bb9-88f5-d1eb037b3a33/e12091c3-582d-49d8-ba72-b1c1b3f76e2a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

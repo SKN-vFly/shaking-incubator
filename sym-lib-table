@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wytrzasarka-pinout")(type "KiCad")(uri "${KIPRJMOD}/wytrzasarka-pinout.kicad_sym")(options "")(descr ""))
+)
