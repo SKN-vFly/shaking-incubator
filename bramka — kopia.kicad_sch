@@ -1022,7 +1022,7 @@
 		)
 		(uuid "3100b80d-1ba8-4b78-b439-a923f7437610")
 	)
-	(hierarchical_label "coil1"
+	(hierarchical_label "coil3"
 		(shape output)
 		(at 157.48 80.01 0)
 		(fields_autoplaced yes)
@@ -1046,7 +1046,7 @@
 		)
 		(uuid "9e963838-487c-4975-93da-8fd552d0a309")
 	)
-	(hierarchical_label "coil0"
+	(hierarchical_label "coil2"
 		(shape output)
 		(at 157.48 102.87 0)
 		(fields_autoplaced yes)
@@ -1058,7 +1058,7 @@
 		)
 		(uuid "ab66a4ea-4f4c-4309-a3bb-afa8810bd67b")
 	)
-	(hierarchical_label "clock1"
+	(hierarchical_label "clock3"
 		(shape input)
 		(at 77.47 110.49 180)
 		(fields_autoplaced yes)
@@ -1070,7 +1070,7 @@
 		)
 		(uuid "c14e21eb-08cd-4f5c-ae8c-8203ab2d3e9b")
 	)
-	(hierarchical_label "clock0"
+	(hierarchical_label "clock2"
 		(shape input)
 		(at 77.47 60.96 180)
 		(fields_autoplaced yes)
