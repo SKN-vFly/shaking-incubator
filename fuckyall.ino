@@ -4,7 +4,7 @@ const int set1forward = 12;
 const int set1back = 13;
 const int set2forward = 11;
 const int set2back = 10;
-const int duration = 1000;
+const int duration = 450;
 
 
 void setup(){
@@ -12,27 +12,37 @@ void setup(){
     pinMode(set1back, OUTPUT);
     pinMode(set2forward, OUTPUT);
     pinMode(set2back, OUTPUT);
-    digitalwrite(set1forward, LOW);
-    digitalwrite(set1back, LOW);
-    digitalwrite(set2forward, LOW);
-    digitalwrite(set2back, LOW);
+    pinMode(A0, INPUT);
+    digitalWrite(set1forward, LOW);
+    digitalWrite(set1back, HIGH);
+    digitalWrite(set2forward, LOW);
+    digitalWrite(set2back, HIGH);
+    delay(1000);
+    digitalWrite(set1back, LOW);
+    digitalWrite(set2back, LOW);
+    Serial.begin(9600);
 }
 
+#define N 5
+#define N1 (N+1)
+
 void loop(){
-    // Begin
-    digitalwrite(set1forward, HIGH);
-    digitalwrite(set2back, HIGH);
-    delay(duration);
+    // Begin   
+    digitalWrite(set1back, LOW);
+    digitalWrite(set2back, LOW);
+    //Serial.println(analogRead(A0));
+    delay(duration/N*3);
+    digitalWrite(set1forward, HIGH);
+    digitalWrite(set2forward, HIGH);
+    delay(duration/N1*N);
     // Delay
-    digitalwrite(set1forward, LOW);
-    digitalwrite(set2back, LOW);
-    delay(1);
-    // Next step
-    digitalwrite(set1back, HIGH);
-    digitalwrite(set2forward, HIGH);
-    delay(duration);
-    // Delay
-    digitalwrite(set1back, LOW);
-    digitalwrite(set2forward, LOW);
-    delay(1);
+    digitalWrite(set1forward, LOW);
+    digitalWrite(set2forward, LOW);
+    delay(100);
+    delay(duration/N*3);
+    digitalWrite(set1back, HIGH);
+    digitalWrite(set2back, HIGH);
+    delay(duration/N1*N);
+    digitalWrite(set1back, LOW);
+    digitalWrite(set2back, LOW);
 }
